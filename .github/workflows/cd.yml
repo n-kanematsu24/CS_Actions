@@ -62,7 +62,7 @@ jobs:
       - name: .NET SDK のセットアップ
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
       - name: アプリケーションのビルドと発行 (Publish)
         # FDD形式、Linux向けに最適化して ./publish フォルダに出力
